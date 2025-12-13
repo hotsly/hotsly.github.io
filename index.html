@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RAG Test Website</title>
+
+  <!-- RAG Metadata -->
+  <meta name="rag-version" content="1.0">
+  <meta name="rag-last-updated" content="2025-01-01">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2563eb;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>RAG Test Website</h1>
+  <p>Used for Retrieval-Augmented Generation indexing tests</p>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Policy Information</h2>
+    <p><strong>Policy Version:</strong> <span id="policy-version">1.0</span></p>
+    <p>This policy explains how data is processed.</p>
+  </section>
+
+  <section class="card">
+    <h2>Pricing</h2>
+    <ul>
+      <li>Basic Plan: <strong>$10</strong></li>
+      <li>Pro Plan: <strong>$25</strong></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Last Updated</h2>
+    <p id="last-updated">January 1, 2025</p>
+  </section>
+</main>
+
+</body>
+</html>
